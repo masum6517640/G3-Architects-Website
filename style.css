@@ -1,0 +1,12 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+.work-sans-fonts {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
