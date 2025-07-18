@@ -322,7 +322,7 @@ main > section {
     display: grid;
     grid-template-columns: repeat(5 ,1fr);
     gap:100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
