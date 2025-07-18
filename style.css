@@ -3,10 +3,184 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sevillana&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 
 .work-sans-fonts {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
+  font-weight: 400;
   font-style: normal;
+}
+
+
+
+/* Shared styles */
+.display-flex {
+    display: flex;
+}
+
+.dark-2 {
+    color:#424242;
+}
+
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color:white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    margin-top: 20px;
+}
+.btn-primary:hover {
+ 
+    background-color: rgba(255, 144, 14, 0.15); 
+    color: #FF900E; 
+    border: 1px solid #FF900E; 
+    box-shadow: 0 6px 12px rgba(255, 144, 14, 0.3); 
+
+}
+
+main {
+    max-width:80%;
+    margin: 0 auto;
+}
+
+main > section {
+    margin-top: 100px;
+
+}
+
+
+
+
+/* header styles */
+
+
+
+/* navbar related style */
+
+
+.nav-item {
+    list-style:none;
+}
+
+.nav-link {
+    text-decoration: none;
+    gap:50px;
+    font-weight: 500;
+}
+
+.navbar {
+    justify-content: space-between;
+    padding:20px;
+    max-width: 1440px;
+    margin:0px 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.brand-name {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.banner img {
+    width: 100%;
+
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-content {
+    max-width: 760px;
+    margin:0 auto;
+    text-align: center;
+    
+    margin-bottom: 40px;
+    
+    
+
+}
+
+.banner-title {
+    font-size: 55px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-dis {
+    color:#42424284;
+    
+}
+
+.banner-image {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Team section area */
+
+.teams {
+    align-items: center;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap:20px;
+
+}
+
+.team-image img {
+    width:250px;
+}
+
+.our-feature {
+    margin-left: 70px;
+    max-width: 500px;
+}
+
+.feature-title {
+    font-size: 2.8rem;
+    color:#131313;
+   
+}
+
+#quick-list {
+    font-weight: 300;
+    color: #727272;
+}
+#feature {
+    color: #FF900E;
+}
+.feature-dis  {
+    font-size: 14px;
+    color: #42424288;
+    margin: 10px 0px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .navbar , .nav-link {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
 }
